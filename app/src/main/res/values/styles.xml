@@ -1,0 +1,120 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/tan_background</item>
+    </style>
+
+
+    <style name="BannerBaseStyle">
+        <item name="android:layout_width">@dimen/list_item_width</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:textColor">@color/banner_item_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/banner_text</item>
+        <item name="android:background">@color/category_banner_base</item>
+    </style>
+
+
+    <style name="BannerSelectedStyle">
+        <item name="android:layout_width">@dimen/list_item_width</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:textColor">@color/banner_item_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/banner_text</item>
+        <item name="android:background">@color/category_banner_selected</item>
+    </style>
+
+
+    <style name="viewListOfSongs">
+        <item name="android:layout_marginTop">@dimen/view_margin_top</item>
+        <item name="android:background">@color/view</item>
+    </style>
+
+
+    <style name="playerButton">
+        <item name="android:layout_width">@dimen/player_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/player_background</item>
+    </style>
+
+
+    <style name="songText">
+        <item name="android:text">@string/song_name</item>
+        <item name="android:textSize">@dimen/list_song</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/list_song_color</item>
+    </style>
+
+
+    <style name="artistText">
+        <item name="android:text">@string/artist_name</item>
+        <item name="android:textSize">@dimen/list_song</item>
+        <item name="android:textColor">@color/list_song_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="albumText">
+        <item name="android:text">@string/album_name</item>
+        <item name="android:textSize">@dimen/list_song</item>
+        <item name="android:textColor">@color/list_song_color</item>
+</style>
+        <style name="paypa">
+            <item name="android:text">@string/paypal</item>
+            <item name="android:textSize">@dimen/list_song</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textColor">@color/list_song_color</item>
+        </style>
+
+
+        <style name="googlewallet">
+            <item name="android:text">@string/googlewallet</item>
+            <item name="android:textSize">@dimen/list_song</item>
+            <item name="android:textColor">@color/list_song_color</item>
+            <item name="android:textStyle">italic</item>
+        </style>
+
+        <style name="payhere">
+            <item name="android:text">@string/pagare</item>
+            <item name="android:textSize">@dimen/list_song</item>
+            <item name="android:textColor">@color/list_song_color</item>
+            <item name="android:textStyle">italic</item>
+        </style>
+            <style name="storno">
+                <item name="android:text">@string/storno</item>
+                <item name="android:textSize">@dimen/list_song</item>
+                <item name="android:textColor">@color/list_song_color</item>
+                <item name="android:textStyle">italic</item>
+
+            </style>
+
+            <style name="click">
+                <item name="android:text">@string/click_here</item>
+                <item name="android:textSize">@dimen/list_song</item>
+                <item name="android:textColor">@color/list_song_color</item>
+                <item name="android:textStyle">italic</item>
+
+            </style>
+
+            <style name="contact">
+                <item name="android:text">@string/contact</item>
+                <item name="android:textSize">@dimen/list_song</item>
+                <item name="android:textColor">@color/list_song_color</item>
+                <item name="android:textStyle">italic</item>
+
+            </style>
+
+
+
+</resources>

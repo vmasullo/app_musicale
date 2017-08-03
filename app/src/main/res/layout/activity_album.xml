@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/album"
+            style="@style/BannerSelectedStyle"
+            android:text="@string/category_album" />
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/BannerBaseStyle"
+            android:text="@string/category_artist" />
+
+        <TextView
+            android:id="@+id/playlist"
+            style="@style/BannerBaseStyle"
+            android:text="@string/category_playlist" />
+
+        <TextView
+            android:id="@+id/track"
+            style="@style/BannerBaseStyle"
+            android:text="@string/category_track" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Description"
+        android:text="@string/category_Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/album_icon_album_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_right_icon"
+            android:src="@drawable/ic_album_black_36dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/album_icon_album_1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/songText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/artistText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/albumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/viewListOfSongs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/album_icon_album_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_right_icon"
+            android:src="@drawable/ic_album_black_36dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/album_icon_album_2"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/songText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/artistText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/albumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/viewListOfSongs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/album_icon_album_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_right_icon"
+            android:src="@drawable/ic_album_black_36dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/album_icon_album_3"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/songText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/artistText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/albumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/viewListOfSongs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/album_icon_album_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_right_icon"
+            android:src="@drawable/ic_album_black_36dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/album_icon_album_4"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/songText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/artistText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/albumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/viewListOfSongs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/skip_previous_1"
+                style="@style/playerButton"
+                android:src="@drawable/ic_skip_previous_white_36dp" />
+
+            <ImageView
+                android:id="@+id/play_1"
+                style="@style/playerButton"
+                android:src="@drawable/ic_play_arrow_white_36dp" />
+
+            <ImageView
+                android:id="@+id/pause_1"
+                style="@style/playerButton"
+                android:src="@drawable/ic_pause_white_36dp" />
+
+            <ImageView
+                android:id="@+id/skip_next_1"
+                style="@style/playerButton"
+                android:src="@drawable/ic_skip_next_white_36dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">App musicale</string>
+
+
+    <string name="category_album">Album</string>
+
+
+    <string name="category_artist">Artista</string>
+
+
+    <string name="category_playlist">Lista</string>
+
+
+    <string name="category_track">Pay</string>
+
+
+    <string name="song_name">Canzone</string>
+    <string name="artist_name">Artista</string>
+    <string name="album_name">Nome Album</string>
+    <string name="paypal">paypal</string>
+    <string name="googlewallet">googlewallet</string>
+    <string name="pagare">pay here</string>
+    <string name="storno">request money back</string>
+    <string name="click_here">click here</string>
+    <string name="contact">contact</string>
+    <string name="category_Description">In this app you must click in each tab to be able to see the music, than you must click below play the music for each tab. In the pay tab you can chose the payements types</string>
+
+
+</resources>

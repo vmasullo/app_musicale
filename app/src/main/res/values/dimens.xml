@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_item_height">60dp</dimen>
+
+    <dimen name="list_item_width">0dp</dimen>
+
+
+    <dimen name="list_item_padding">14dp</dimen>
+
+
+    <dimen name="banner_text">18sp</dimen>
+
+    <dimen name="description_text">12sp</dimen>
+
+    <dimen name="list_song">14sp</dimen>
+
+
+    <dimen name="description_padding">15dp</dimen>
+
+
+    <dimen name="margin_right_icon">20dp</dimen>
+
+
+    <dimen name="view_margin_top">16dp</dimen>
+    <dimen name="view_height">1dp</dimen>
+
+
+    <dimen name="player_button_width">0dp</dimen>
+
+</resources>
